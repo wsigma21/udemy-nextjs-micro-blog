@@ -1,0 +1,16 @@
+{
+  "posts": [
+    {
+      "id": "next.js13-udemy",
+      "title": "Next.js13をUdemyで学ぶ",
+      "content": "shincodeさんの教材でNext.js13を学んでいます",
+      "createdAt": "2022/07/14"
+    },
+    {
+      "id": "json-sever",
+      "title": "JSONサーバ",
+      "content": "useEffectとボタンのクリック（JS操作）したい場合、ページの先頭に`use client`をつけてクライアント側でレンダリングされるようにするuseEffectとボタンのクリック（JS操作）したい場合、ページの先頭に`use client`をつけてクライアント側でレンダリングされるようにするuseEffectとボタンのクリック（JS操作）したい場合、ページの先頭に`use client`をつけてクライアント側でレンダリングされるようにする",
+      "createdAt": "2022/07/18"
+    }
+  ]
+}
