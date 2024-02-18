@@ -23,12 +23,6 @@
       "title": "タイトルです",
       "content": "本文本文",
       "createdAt": "2024-02-18T12:39:53.064Z"
-    },
-    {
-      "id": "test",
-      "title": "test",
-      "content": "tst",
-      "createdAt": "2024-02-18T12:46:27.178Z"
     }
   ]
 }
