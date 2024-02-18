@@ -5,6 +5,9 @@ export const getAllArticles = async (): Promise<Article[]> => {
   if (!res.ok) {
     throw new Error("エラーが発生しました");
   }
+
+  // ローディング確認用
+  // await new Promise((resolve) => setTimeout(resolve, 1000));
   const articles = await res.json();
   return articles;
 }
