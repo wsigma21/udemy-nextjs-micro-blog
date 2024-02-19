@@ -1,5 +1,5 @@
 "use client";
-import { createArticle } from '@/blogAPI';
+// import { createArticle } from '@/blogAPI';
 import { useRouter } from 'next/navigation';
 import React, { useState } from 'react'
 
@@ -12,8 +12,21 @@ const CreateBlogPage = () => {
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+
     setLoading(true);
-    await createArticle(id, title, content);
+
+    // json-server用
+    // await createArticle(id, title, content);
+    const API_URL = process.env.NEXT_PUBLIC_API_URL;
+
+    await fetch(`${API_URL}/api/create`, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ id, title, content }),
+    });
+
     setLoading(false);
     router.push("/");
     router.refresh();
