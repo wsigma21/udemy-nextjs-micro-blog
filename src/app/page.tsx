@@ -1,6 +1,6 @@
 // import { supabase } from "@/utils/supabaseClient";
 import ArticleList from "./components/ArticleList";
-import { getAllArticles } from "@/blogAPI";
+// import { getAllArticles } from "@/blogAPI";
 
 export default async function Home() {
   // JSONサーバー用

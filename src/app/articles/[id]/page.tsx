@@ -1,5 +1,5 @@
 import DeleteButton from "@/app/components/DeleteButton";
-import { getDetailArticle } from "@/blogAPI";
+// import { getDetailArticle } from "@/blogAPI";
 import Image from "next/image";
 import React from 'react'
 
